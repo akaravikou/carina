@@ -8,7 +8,7 @@ public class UserTest {
     @Test
     public void verifyUserTest(){
         GetUserMethod getUserMethod = new GetUserMethod();
-        getUserMethod.setHeaders(String.format("Authorization=%s","token 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"));
+        getUserMethod.setHeaders(String.format("Authorization=%s","token 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"));
         getUserMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         getUserMethod.callAPI();
         getUserMethod.validateResponse();

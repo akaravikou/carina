@@ -1,10 +1,10 @@
 {
-  "login": "akaravikou",
-  "id": 79591344,
+  <#if login??>"login": "${login}",</#if>
+  <#if id??>"id": ${id},</#if>
   "node_id": "MDQ6VXNlcjc5NTkxMzQ0",
   "avatar_url": "https://avatars.githubusercontent.com/u/79591344?v=4",
   "gravatar_id": "",
-  "url": "https://api.github.com/users/akaravikou",
+  <#if url??>"url": "${url}",</#if>
   "html_url": "https://github.com/akaravikou",
   "followers_url": "https://api.github.com/users/akaravikou/followers",
   "following_url": "https://api.github.com/users/akaravikou/following{/other_user}",

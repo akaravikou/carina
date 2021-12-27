@@ -8,7 +8,7 @@ public class RepositoryTest {
     @Test
     public void verifyDeleteRepositoryTest() {
         DeleteRepositoryMethod deleteRepositoryMethod = new DeleteRepositoryMethod();
-        deleteRepositoryMethod.setHeaders(String.format("Authorization=%s","token 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"));
+        deleteRepositoryMethod.setHeaders(String.format("Authorization=%s","token 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"));
         deleteRepositoryMethod.expectResponseStatus(HttpResponseStatusType.NO_CONTENT_204);
         deleteRepositoryMethod.callAPI();
     }

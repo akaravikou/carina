@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 public class UserTest {
 
     @Test
-    public void verifyUserTest(){
+    public void verifyUserTest() {
         GetUserMethod getUserMethod = new GetUserMethod();
-        getUserMethod.setHeaders(String.format("Authorization=%s","token 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"));
+        getUserMethod.setHeaders(String.format("Authorization=%s", "token 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"));
         getUserMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         getUserMethod.callAPI();
         getUserMethod.validateResponse();

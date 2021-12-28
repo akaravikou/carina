@@ -1,4 +1,4 @@
-package com.solvd.carina;
+package com.solvd.carina.api;
 
 import com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2;
 import com.qaprosoft.carina.core.foundation.api.annotation.Endpoint;

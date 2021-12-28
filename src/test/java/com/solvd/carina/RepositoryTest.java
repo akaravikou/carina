@@ -9,7 +9,7 @@ public class RepositoryTest {
     @Test
     public void verifyDeleteRepositoryTest() {
         DeleteRepositoryMethod deleteRepositoryMethod = new DeleteRepositoryMethod();
-        deleteRepositoryMethod.setHeaders(String.format("Authorization=%s", "token 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"));
+        deleteRepositoryMethod.setHeaders(String.format("Authorization=%s", "token xxx"));
         deleteRepositoryMethod.expectResponseStatus(HttpResponseStatusType.NO_CONTENT_204);
         deleteRepositoryMethod.callAPI();
     }
@@ -17,7 +17,7 @@ public class RepositoryTest {
     @Test
     public void verifyPostRepositoryTest() {
         PostRepositoryMethod postRepositoryMethod = new PostRepositoryMethod();
-        postRepositoryMethod.setHeaders(String.format("Authorization=%s", "token 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"));
+        postRepositoryMethod.setHeaders(String.format("Authorization=%s", "token xxx"));
         postRepositoryMethod.expectResponseStatus(HttpResponseStatusType.CREATED_201);
         postRepositoryMethod.callAPI();
         postRepositoryMethod.validateResponse(JSONCompareMode.LENIENT);
@@ -26,7 +26,7 @@ public class RepositoryTest {
     @Test
     public void verifyPatchRepositoryTest() {
         PatchRepositoryMethod patchRepositoryMethod = new PatchRepositoryMethod();
-        patchRepositoryMethod.setHeaders(String.format("Authorization=%s", "token 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"));
+        patchRepositoryMethod.setHeaders(String.format("Authorization=%s", "token xxx"));
         patchRepositoryMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         patchRepositoryMethod.callAPI();
         patchRepositoryMethod.validateResponse();
@@ -35,7 +35,7 @@ public class RepositoryTest {
     @Test
     public void verifyPutRepositoryTest() {
         PutRepositoryMethod putRepositoryMethod = new PutRepositoryMethod();
-        putRepositoryMethod.setHeaders(String.format("Authorization=%s", "token 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"));
+        putRepositoryMethod.setHeaders(String.format("Authorization=%s", "token xxx"));
         putRepositoryMethod.expectResponseStatus(HttpResponseStatusType.OK_200);
         putRepositoryMethod.callAPI();
         putRepositoryMethod.validateResponse();

@@ -9,7 +9,7 @@ import java.util.List;
 
 public class FilterBlock extends AbstractUIObject {
 
-    @FindBy(xpath = ".//label[contains(@class, 'checkbox-item')]")
+    @FindBy(xpath = ".//*[contains(@class, 'checkbox-item')]")
     private List<FilterBlockItem> filterBlockItems;
 
     public FilterBlock(WebDriver driver, SearchContext searchContext) {

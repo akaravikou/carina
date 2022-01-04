@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class FilterBlockItem extends AbstractUIObject {
 
-    @FindBy(tagName = "input")
+    @FindBy(xpath = ".//input[@type='checkbox']")
     private ExtendedWebElement checkbox;
 
     @FindBy(xpath = ".//*[contains(@class,'checkbox-text')]")

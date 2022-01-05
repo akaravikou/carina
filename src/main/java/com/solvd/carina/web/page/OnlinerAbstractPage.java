@@ -1,8 +1,8 @@
-package com.solvd.carina.web.pages;
+package com.solvd.carina.web.page;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
-import com.solvd.carina.web.components.Dropdown;
+import com.solvd.carina.web.component.Dropdown;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 

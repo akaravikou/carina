@@ -1,10 +1,9 @@
-package com.solvd.carina.web.pages;
+package com.solvd.carina.web.page;
 
 import com.qaprosoft.carina.core.foundation.utils.R;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
-import com.solvd.carina.web.components.FilterBlock;
-import com.solvd.carina.web.components.ProductBlock;
-import com.solvd.carina.web.pages.OnlinerAbstractPage;
+import com.solvd.carina.web.component.FilterBlock;
+import com.solvd.carina.web.component.ProductBlock;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 

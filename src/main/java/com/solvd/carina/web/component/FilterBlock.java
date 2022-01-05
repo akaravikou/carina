@@ -1,4 +1,4 @@
-package com.solvd.carina.web.components;
+package com.solvd.carina.web.component;
 
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;

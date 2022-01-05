@@ -1,15 +1,15 @@
 package com.solvd.carina;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
-import com.solvd.carina.web.pages.CatalogPage;
-import com.solvd.carina.web.pages.OnlinerAbstractPage;
-import com.solvd.carina.web.components.Dropdown;
-import com.solvd.carina.web.components.SearchProduct;
-import com.solvd.carina.web.services.OnlinerService;
-import com.solvd.carina.web.pages.ProductPage;
-import com.solvd.carina.web.components.FilterBlock;
-import com.solvd.carina.web.components.ProductBlock;
-import com.solvd.carina.web.services.SearchItemService;
+import com.solvd.carina.web.page.CatalogPage;
+import com.solvd.carina.web.page.OnlinerAbstractPage;
+import com.solvd.carina.web.component.Dropdown;
+import com.solvd.carina.web.component.SearchProduct;
+import com.solvd.carina.web.service.OnlinerService;
+import com.solvd.carina.web.page.ProductPage;
+import com.solvd.carina.web.component.FilterBlock;
+import com.solvd.carina.web.component.ProductBlock;
+import com.solvd.carina.web.service.SearchItemService;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

@@ -1,7 +1,7 @@
-package com.solvd.carina.web.services;
+package com.solvd.carina.web.service;
 
-import com.solvd.carina.web.components.SearchItem;
-import com.solvd.carina.web.components.SearchProduct;
+import com.solvd.carina.web.component.SearchItem;
+import com.solvd.carina.web.component.SearchProduct;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;

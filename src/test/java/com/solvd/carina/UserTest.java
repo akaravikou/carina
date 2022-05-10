@@ -1,6 +1,7 @@
 package com.solvd.carina;
 
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
+import com.solvd.carina.api.GetUserMethod;
 import org.testng.annotations.Test;
 
 public class UserTest {

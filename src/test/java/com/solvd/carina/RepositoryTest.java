@@ -1,6 +1,10 @@
 package com.solvd.carina;
 
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
+import com.solvd.carina.api.DeleteRepositoryMethod;
+import com.solvd.carina.api.PatchRepositoryMethod;
+import com.solvd.carina.api.PostRepositoryMethod;
+import com.solvd.carina.api.PutRepositoryMethod;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.testng.annotations.Test;
 

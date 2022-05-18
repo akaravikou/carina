@@ -1,10 +1,12 @@
-package com.solvd.carina.mobile.page;
+package com.solvd.carina.mobile.page.android;
 
 import com.qaprosoft.carina.core.foundation.utils.R;
 import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType;
 import com.qaprosoft.carina.core.foundation.utils.mobile.IMobileUtils;
-import com.qaprosoft.carina.core.gui.AbstractUIObject;
+import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.solvd.carina.mobile.component.CatalogBar;
+import com.solvd.carina.mobile.component.Dropdown;
+import com.solvd.carina.mobile.page.common.OnlinerAbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,6 +19,21 @@ public class CatalogPage extends OnlinerAbstractPage implements IMobileUtils {
     public CatalogPage(WebDriver driver) {
         super(driver);
         setPageAbsoluteURL(R.CONFIG.get("catalog_url"));
+    }
+
+    @Override
+    public ExtendedWebElement getAnimation() {
+        return null;
+    }
+
+    @Override
+    public Dropdown getDropdown() {
+        return null;
+    }
+
+    @Override
+    public void logoIsPresent() {
+
     }
 
     public CatalogBar getCatalogBar() {

@@ -1,7 +1,7 @@
 package com.solvd.carina.mobile.service;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
-import com.solvd.carina.mobile.page.OnlinerAbstractPage;
+import com.solvd.carina.mobile.page.common.OnlinerAbstractPage;
 import org.openqa.selenium.WebDriver;
 
 public class OnlinerService {

@@ -1,4 +1,4 @@
-package com.solvd.carina.mobile.page;
+package com.solvd.carina.mobile.page.common;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
@@ -6,7 +6,7 @@ import com.solvd.carina.mobile.component.Dropdown;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
-public class OnlinerAbstractPage extends AbstractPage {
+public abstract class OnlinerAbstractPage extends AbstractPage {
 
     @FindBy(xpath = "//*[contains(@class, 'state_animated')]")
     private ExtendedWebElement animation;
@@ -18,11 +18,9 @@ public class OnlinerAbstractPage extends AbstractPage {
         super(driver);
     }
 
-    public ExtendedWebElement getAnimation() {
-        return animation;
-    }
+    public abstract ExtendedWebElement getAnimation();
 
-    public Dropdown getDropdown() {
-        return dropdown;
-    }
+    public abstract Dropdown getDropdown();
+
+    public abstract void logoIsPresent();
 }

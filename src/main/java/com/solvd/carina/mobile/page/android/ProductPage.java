@@ -1,11 +1,13 @@
-package com.solvd.carina.mobile.page;
+package com.solvd.carina.mobile.page.android;
 
 import com.qaprosoft.carina.core.foundation.utils.R;
 import com.qaprosoft.carina.core.foundation.utils.factory.DeviceType;
 import com.qaprosoft.carina.core.foundation.utils.mobile.IMobileUtils;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
+import com.solvd.carina.mobile.component.Dropdown;
 import com.solvd.carina.mobile.component.FilterBlock;
 import com.solvd.carina.mobile.component.ProductBlock;
+import com.solvd.carina.mobile.page.common.OnlinerAbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 
@@ -32,6 +34,21 @@ public class ProductPage extends OnlinerAbstractPage implements IMobileUtils {
     public ProductPage(WebDriver driver) {
         super(driver);
         setPageAbsoluteURL(R.CONFIG.get("catalog_url")+"/motorcycle");
+    }
+
+    @Override
+    public ExtendedWebElement getAnimation() {
+        return null;
+    }
+
+    @Override
+    public Dropdown getDropdown() {
+        return null;
+    }
+
+    @Override
+    public void logoIsPresent() {
+
     }
 
     public FilterBlock getFilterBlock() {

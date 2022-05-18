@@ -1,12 +1,12 @@
 package com.solvd.carina;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
-import com.solvd.carina.mobile.page.CatalogPage;
-import com.solvd.carina.mobile.page.OnlinerAbstractPage;
+import com.solvd.carina.mobile.page.android.CatalogPage;
+import com.solvd.carina.mobile.page.common.OnlinerAbstractPage;
 import com.solvd.carina.mobile.component.Dropdown;
 import com.solvd.carina.mobile.component.SearchProduct;
 import com.solvd.carina.mobile.service.OnlinerService;
-import com.solvd.carina.mobile.page.ProductPage;
+import com.solvd.carina.mobile.page.android.ProductPage;
 import com.solvd.carina.mobile.component.FilterBlock;
 import com.solvd.carina.mobile.component.ProductBlock;
 import com.solvd.carina.mobile.service.SearchItemService;
